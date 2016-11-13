@@ -1,9 +1,26 @@
+body,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
 * {
   box-sizing: border-box;
 }
 /*小屏的时候*/
 .container {
-  width: 600px;
+  width: 735px;
   margin: auto;
 }
 .container > .row {
@@ -325,9 +342,9 @@
   display: none;
 }
 /*中屏*/
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 735px) {
   .container {
-    width: 800px;
+    width: 735px;
     margin: auto;
   }
   .container > .row > .col-m-1 {
@@ -629,9 +646,9 @@
   }
 }
 /*大屏*/
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1075px) {
   .container {
-    width: 1200px;
+    width: 1075px;
     margin: auto;
   }
   .container > .row > .col-l-1 {
